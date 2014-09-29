@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="github" fetch="https://github.com"/>
-	<default revision="refs/heads/master" remote="github"/>
+	<!--<default revision="refs/heads/master" remote="github"/>-->
 	<project name="willysamz21/repo1" remote="github" path="repo1"/>
 	<project name="willysamz21/repo2" remote="github" path="repo2"/>
 </manifest>
