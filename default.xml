@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="https://github.com/willysamz21"/>
-	<default revision="refs/heads/master" remote="github"/>
-	<project name="repo1" remote="github" path="repo1"/>
-	<project name="repo2" remote="github" path="repo2"/>
+  <remote fetch="https://github.com/willysamz21" name="github"/>
+
+  <default remote="github" revision="refs/heads/master"/>
+
+  <project name="repo1" revision="0c0d884528b6c57934280fc1ed0d6bf89249d747" upstream="refs/heads/master"/>
+  <project name="repo2" revision="cc85bf98cc31ce1bd0ed5f84b2b4bad259120c4c" upstream="refs/heads/master"/>
 </manifest>
+
